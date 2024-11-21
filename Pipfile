@@ -1,0 +1,39 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-slugify = "==8.0.1"
+pillow = "==10.1.0"
+rcssmin = "==1.1.1"
+argon2-cffi = "==23.1.0"
+whitenoise = "==6.6.0"
+redis = "==5.0.1"
+hiredis = "==2.2.3"
+flower = "==2.0.1"
+uvicorn = {version = "==0.24.0.post1", extras = ["standard"]}
+django = "==4.2.7"
+django-model-utils = "==4.3.1"
+django-crispy-forms = "==2.1"
+crispy-bootstrap5 = "==2023.10"
+django-compressor = "==4.4"
+djangorestframework = "==3.14.0"
+django-cors-headers = "==4.3.1"
+psycopg2-binary = "*"
+pydantic = "*"
+goodconf = "*"
+djangorestframework-simplejwt = {extras = ["crypto"], version = "*"}
+daphne = "*"
+channels = "*"
+django-debug-toolbar = "*"
+django-extensions = "*"
+drf-yasg = "*"
+openai = "*"
+requests = "*"
+aiofiles = "*"
+
+[requires]
+python_version = "3.10"
+
+[dev-packages]
